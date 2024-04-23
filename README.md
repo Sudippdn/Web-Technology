@@ -6,4 +6,4 @@
 
 S.N. | Project
 -----|----------
-  1  | [Simple Form 1](https://github.com/Sudippdn/Web-Technology/tree/main/Form)
+  1  | [Simple Form 1](https://github.com/Sudippdn/Web-Technology/blob/main/Form/index.html)
