@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio</title>
+</head>
+<body>
+	<nav>
+		<section>
+			<div>
+				<ul>
+					<li><a href = "#home">Home</a></li>
+					<li><a href = "#about">About</a></li>
+					<li><a href = "#education">Education</a></li>
+					<li><a href = "#interest">Interest</a></li>
+					<li><a href = "#form">Login Form</a></li>
+					<li><a href="#contact">Contacts</a></li>
+				</ul>
+			</div>
+		</section>
+	</nav>
+	<img src="../images/image.jpg" alt="A young man wearing dhaka topi and a coat and standing for a photo" height = "200" width = "300">
+	<h1><a href = "#">SUDIP PRADHAN</a></h1>
+	<fieldset>
+	<legend id="about">About Me</legend>
+	<p>Hi, this is me <strong>Sudip Pradhan</strong> from Morang, Nepal. I am enrolled in <strong>Madan Bhandari Memorial College</strong>
+		for <strong>BSC CSIT</strong> for academic year 2022-2026. I am <strong>Data Science and Machine learning enthusiast.</strong> I have basic knowledge of python programming and also have done data analysis using different data analysis tools of pandas. During fourth semester, I have also learned SQL and used it for data analysis of covid 19. I am also enrolled in online learning platforms to learn Machine Learing. Today, I am making my 
+	portfolio website using <strong>HTML</strong> only.</p>
+	</fieldset>
+	<fieldset>
+		<legend id="education">Education History</legend>
+		<table border = '2' cellspacing ='0'>
+			<tr>
+				<th>Board</th>
+				<th>Level</th>
+				<th>School/College</th>
+				<th>Year</th>
+			</tr>
+			<tr>
+				<td>NEB</td>
+				<td>SEE</td>
+				<td>Janasewas Secondary School</td>
+				<td>2018</td>
+			</tr>
+			<tr>
+				<td>NEB</td>
+				<td>+2</td>
+				<td>Kathmandu Bernhardt Secondary School</td>
+				<td>2020</td>
+			</tr>
+			<tr>
+				<td>TU</td>
+				<td>BSC CSIT</td>
+				<td>Madan Bhandari Memorial College</td>
+				<td>2022</td>
+			</tr>
+		</table>
+	</fieldset>
+	<fieldset>
+		<legend id="interest">Interest and Hobbies</legend>
+		<ul>
+			<li>Music</li>
+			<li>Playing Games</li>
+			<li>Walking in a Nature</li>
+			<li>Cycling</li>
+			<li>Coding</li>
+		</ul>
+	</fieldset>
+	<fieldset>
+		<legend id="form">Login Form</legend>
+		<form action="">
+        
+			<label for="name">Name:</label>
+			<div>
+				<input type="text" placeholder="your name" name="name" id="name" required>
+			</div>
+			<br>
+			<label for="email">Email:</label>
+			<div>
+				<input type = "email" placeholder="example@gmail.com" name = "email" id = "email" required>
+			</div>
+			<br>
+			<div>
+				Password: <input type = "password" placeholder="password" name = "password" id = "password" required>
+			</div>
+			<br>
+			<div>
+				Phone: <input type = 'number' placeholder="phone number" name = 'phone' id = 'phone' required>
+			</div>
+			<br>
+			<div>
+				DOB: <input type="date" name = "Date" id = "Date" required >
+			</div>
+			<br>
+			<div>
+				Time: <input type = 'time' name = 'time' id = 'time'>
+			</div>
+			<br>
+			<div>
+				Address: <input type="text" name = 'address' id = 'address' required></textarea>          
+			</div>
+			<br>
+			<div>
+				Country: <select name = 'country' id = 'country' required>
+					<option value = 'India'>India</option>
+					<option value="Nepal" selected>Nepal</option>
+					<option value = 'USA'>USA</option>
+					<option value = 'UK'>UK</option>
+					<option value = 'Australia'>Australia</option>
+				</select>
+			</div>
+			<br>
+			<div>
+				Age: <input type = "number" name = "age" id = "age" min="1" max="100" required>
+			</div>
+			<br>
+			<div>
+				Gender: <input type = 'radio' name = "radio" id = "radio"> Male <input type = 'radio' name = "radio"> Female <input type = 'radio' name = "radio" id = "radio"> Other
+			</div>
+			<br>
+			<div>
+				<input type = 'file' name = "file" id = "file" required>
+			</div>
+			<br>
+			<div>
+				Rating : <input type = 'range' name = 'range' id = 'range'>
+			</div>
+			<br>
+			<hr>
+			You are about to share your personal information. Please read our <a href = "terms.html">terms and conditions</a> before submitting the form.
+			<div>
+				<input type = 'checkbox' name = "checkbox" id = "checkbox" required> Yes, I agree to the terms and conditions
+				<br><input type = 'checkbox' name = "checkbox" id = "checkbox" checked> No, I don't agree to the terms and conditions
+			</div>
+			<br>
+			<div>
+				<input type="submit" value="Submit">
+					<input type="reset" value="Reset">
+				</div>            
+		   </form>
+	</fieldset>
+	<hr><hr>
+	<fieldset>
+		<legend id="feedback">Feedback:</legend>
+			<div>
+				<br><textarea name = 'feedback' id = 'feedback' rows="10" cols="40"></textarea>
+			</div>
+	</fieldset>
+	<footer>
+		<h3 id="contact"></h3>
+		You can find <a href= "https://github.com/sudippdn">Github</a> for more detail or <a href="#">mail</a> me at sudip.pradhanq@gmail.com.
+		<p>Copyright&copy; 2024 Sudip Pradhan</p>
+
+	</footer>
+</body>
+</html>
